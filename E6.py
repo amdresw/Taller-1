@@ -1,3 +1,6 @@
+#Ejercicio 6
+#Escribe un programa que implemente un juego de adivinanza de números.
+# Andrés Araque, grupo J1
 
 import random
 

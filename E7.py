@@ -1,5 +1,6 @@
 #ejercicio 7
-#Enunciado:
+#Enunciado:Escribe un programa que determine si un número es positivo, negativo o cero usando if .
+# Andrés Araque, grupo J1
 
 num= int (input("Ingrese un número entero \n"))
 if (num<0) :

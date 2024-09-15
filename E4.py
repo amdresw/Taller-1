@@ -7,11 +7,11 @@ Lado2= int(input("Ingrese el siguiente lado del triángulo: "))
 Lado3= int(input("Ingrese el último lado del triángulo: "))
 
 if Lado1==Lado2==Lado3 :
-    print("el triángulo es: equilátero")
+    print("el triángulo es equilátero")
 
 elif (Lado1==Lado2 or Lado1==Lado3 or Lado2==Lado3 ) :
-    print("el triángulo es: isóceles")  
+    print("el triángulo es isósceles")  
    
 else:
-    print("El triángulo es: escaleno ")
+    print("El triángulo es escaleno ")
     

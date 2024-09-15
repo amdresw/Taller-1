@@ -1,5 +1,6 @@
 #Ejercicio 5
-#Enunciado:
+#Enunciado: Escribe un programa que, dado un número del 1 al 7, imprima el día correspondiente de la semana usando match .
+# Andrés Araque, grupo J1
 
 Numero= str (input("ingrese un número del 1 al 7 \n"))
 

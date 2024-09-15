@@ -1,5 +1,7 @@
 #ejercicio 8
-#Enunciado: año bisiesto
+#Enunciado: Escribe un programa que determine si un año es bisiesto o no.
+# Andrés Araque, grupo J1
+
 año= int(input("Ingrese un año:\n ")) 
 
 if (año % 4 == 0 and año % 100 !=0 ) or (año % 400 == 0 ) :

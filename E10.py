@@ -1,22 +1,23 @@
 #Ejercicio 10
-#Enunciado:
+#Enunciado: Escribe un programa que asigne una calificación basada en una nota numérica.
+# Andrés Araque, grupo J1
 
-Nota= int(input("ingrese su nota: "))
+Nota = int(input("Ingrese su nota: "))
 
-if (Nota <0 or Nota >100):
- print ("Invalida")
+if Nota < 0 or Nota > 100:
+    print("Invalida")
 
-elif (Nota >= 90 or Nota >= 100 ) :
- print ("Usted obtuvo una A")
- 
-elif (Nota >= 80 or Nota >= 89 ) :
- print ("Usted obtuvo una B")
+elif 90 <= Nota <= 100:
+    print("Usted obtuvo una A")
 
-elif (Nota >= 70 or Nota >= 79 ) :
- print ("Usted obtuvo una C")
+elif 80 <= Nota <= 89:
+    print("Usted obtuvo una B")
 
-elif (Nota >= 60 or Nota >= 69 ) :
- print ("Usted obtuvo una D")
+elif 70 <= Nota <= 79:
+    print("Usted obtuvo una C")
 
-elif (Nota <60  ) :
- print ("Usted obtuvo una F")
+elif 60 <= Nota <= 69:
+    print("Usted obtuvo una D")
+
+elif Nota < 60:
+    print("Usted obtuvo una F")
