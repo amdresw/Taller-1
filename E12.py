@@ -1,6 +1,6 @@
 #Ejercicio 12
 #Enunciado: Escribe un programa que calcule el IMC y determine el estado de peso.
-# Andrés Araque, grupo J1 (18.5-24.9),
+# Andrés Araque, grupo J1 
 
 Peso = float(input("Ingrese su peso (kg): \n"))
 Altura = float(input("Ingrese su altura (m): \n"))
